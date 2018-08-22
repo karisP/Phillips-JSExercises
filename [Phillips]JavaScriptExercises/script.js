@@ -32,16 +32,15 @@ while(ans == "yes")
         if (flag)
         {
           str += "!";
-          console.log(str);
         }
 
         else
           {
             var name = prompt("Enter your name");
             str = "Hello my name is " + name;
-            console.log(str);
             flag = true;
           }
+        console.log(str);
         ans = prompt("Do you want to print your name again?");
       }
   }
